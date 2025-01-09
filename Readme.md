@@ -18,23 +18,23 @@ GitHub Activity Tracker is a command-line interface (CLI) tool that allows users
 ## Installation
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/github-activity-tracker.git
-    cd github-activity-tracker
+    `git clone https://github.com/yourusername/github-activity-tracker.git`
+    `cd github-activity-tracker`
 
 
 2. Create a virtual environment (optional but recommended):
-    python -m venv venv
-    source venv/bin/activate # On Windows, use venv\Scripts\activate
+    `python -m venv venv`
+    `source venv/bin/activate # On Windows, use venv\Scripts\activate`
 
 
 3. Install dependencies:
-    pip install requests
+    `pip install requests`
 
 
 ## Usage
 
 Run the application:
-    python main.py
+    `python main.py`
 
 
 ### Commands
@@ -44,16 +44,20 @@ Run the application:
 
 ## Example
 
+```
 (GithubActivity) octocat
-Event: PushEvent
+Event: PushEvent`
 Repository: octocat/Hello-World
 Time: 2023-01-09T15:30:00Z
+```
 
+```
 github-activity-tracker/
 │
 ├── main.py
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Dependencies
